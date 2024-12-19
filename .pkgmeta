@@ -1,29 +1,8 @@
-package-as: ADDON_NAME
-
-externals:
-  Libs/LibStub:
-    url: https://repos.wowace.com/wow/libstub/trunk
-    tag: 1.0
+package-as: WoWAddonTemplate
 move-folders:
-  Monkey/Modules/Suit: Monkey_Suit
-ignore:
-  - Scripts
-  - Modules/Debug.lua
-  - "*.txt"
-
-required-dependencies:
-  - monkey-town
-
-optional-dependencies:
-  - monkey-city
-
-embedded-libraries:
-  - libbongo-1-0
-
-tools-used:
-  - data-tools
-
-manual-changelog:
-  filename: CHANGELOG.md
-  markup-type: markdown
-enable-toc-creation: yes
+  WoWAddonTemplate/BugGrabber: BugGrabber
+externals:
+  BugGrabber/Libs/LibStub:
+    url: https://repos.wowace.com/wow/libstub/trunk
+  Libs/CallbackHandler-1.0:
+    url: https://repos.wowace.com/wow/callbackhandler/trunk/CallbackHandler-1.0
