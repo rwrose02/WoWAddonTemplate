@@ -1,6 +1,6 @@
 package-as: WoWAddonTemplate
 move-folders:
-  WoWAddonTemplate\Libs\CallbackHandler-1.0: Libs\CallbackHandler-1.0
+  WoWAddonTemplate\Libs: Libs
 externals:
   Libs/LibStub:
     url: https://repos.wowace.com/wow/libstub/trunk
